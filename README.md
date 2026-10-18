@@ -1,5 +1,5 @@
 # Login System
-### Full login system with Additional Features  
+### A login system with account management and four built-in programs  
 
 ## Features
 - Main Menu screen
@@ -30,7 +30,7 @@
        W E L C O M E       
 ===========================
 [1] Math Quiz
-[2] Rock, Paper, Scissor
+[2] Rock, Paper, Scissors
 [3] Electron Configuration
 [4] Generate Random Keys
 [0] Logout
