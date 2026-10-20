@@ -132,13 +132,14 @@ bool bContinueProject(string Text)
         cout << Text;
         cin >> Continue;
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        Continue = tolower(Continue);
 
-    } while (!(Continue == 'y' || Continue == 'Y' || Continue == 'n' || Continue == 'N'));
+        if (Continue == 'y')
+            return 1;
+        else if (Continue == 'n')
+            return 0;
 
-    if (Continue == 'y' || Continue == 'Y')
-        return 1;
-    else
-        return 0;
+    } while (true);
 }
 
 void vResetInfo(stInfo Info)
