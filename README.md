@@ -64,7 +64,7 @@ Press "ENTER" to return to the MAIN MENU...
 ```
 
 ## Language
-- C++
+- C++ (GCC compiler)
   
 ## Author 
 - Ahmed
